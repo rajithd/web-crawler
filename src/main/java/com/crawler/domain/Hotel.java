@@ -41,6 +41,8 @@ public class Hotel {
 
     private String description;
 
+    private String typeOfLodging;
+
 
     public String getId() {
         return id;
@@ -168,5 +170,13 @@ public class Hotel {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getTypeOfLodging() {
+        return typeOfLodging;
+    }
+
+    public void setTypeOfLodging(String typeOfLodging) {
+        this.typeOfLodging = typeOfLodging;
     }
 }
